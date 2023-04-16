@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552346426399",
+    "project_id": "supereal",
+    "storage_bucket": "supereal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552346426399:android:b81ec3389a9682acc3092a",
+        "android_client_info": {
+          "package_name": "com.example.edirnebenim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552346426399-vv4ilor7vlc0vgjdaocs94o5cfgbqhpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBysoew2cyPyqOC1HM87v6zJ3SrcMP4A8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552346426399-vv4ilor7vlc0vgjdaocs94o5cfgbqhpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
