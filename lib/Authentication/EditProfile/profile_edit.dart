@@ -1,4 +1,5 @@
 import 'package:edirnebenim/Authentication/EditProfile/item.dart';
+import 'package:edirnebenim/Authentication/EditProfile/name_change.dart';
 import 'package:edirnebenim/Authentication/user_model.dart';
 import 'package:edirnebenim/Values/my_user.dart';
 import 'package:edirnebenim/config.dart';
@@ -64,6 +65,7 @@ class _ProfileEditScreenState extends State<ProfileEditScreen> {
             title: myUser.value?.name,
             subtitle: 'Adınız',
             emptyText: 'Adınız',
+            targetPage: const NameChangeScreen(),
             /*  targetPage: SizedBox(), */
           ),
           HomeItem(

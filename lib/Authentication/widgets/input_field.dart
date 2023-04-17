@@ -11,11 +11,13 @@ class InputField extends StatelessWidget {
     super.key,
     this.validator,
     this.obscureText = false,
+    this.onChanged,
   });
   final String hintText;
   final bool obscureText;
   final Widget suffixIcon;
   final TextEditingController controller;
+  final Function(String)? onChanged;
   String? Function(String?)? validator;
 
   @override
@@ -29,6 +31,7 @@ class InputField extends StatelessWidget {
         controller: controller,
         obscureText: obscureText,
         validator: validator,
+        onChanged: onChanged,
         decoration: InputDecoration(
           hintText: hintText,
           hintStyle: heading6.copyWith(color: textGrey),

@@ -26,6 +26,9 @@ class HomeItem extends StatelessWidget {
       child: OutlinedButton(
         style: OutlinedButton.styleFrom(
           padding: EdgeInsets.zero,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18),
+          ),
           side: BorderSide(
             color: AppConfig.tradeTextColor,
           ),
